@@ -1,0 +1,11 @@
+{
+    "command":"/bin/bash",    
+    "args": [
+        "-c",
+        "echo Hello $FOO $BAR"
+    ],
+    "env": [
+        "FOO=foo",
+        "BAR=bar"
+    ]
+}
